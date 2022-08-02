@@ -4,8 +4,9 @@ import time
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 
+
 class TestReg_Form(unittest.TestCase):
-	"""Класс для тестирования заполнения формы регистрации на сайте"""
+	"""Класс для тестирования заполнения формы регистрации на сайте: проверяется старая и новая форма регистрации"""
 	def test_reg_1(self):		
 		#Запускаем веб-драйвер и переходим на страницу
 		browser = webdriver.Chrome()
